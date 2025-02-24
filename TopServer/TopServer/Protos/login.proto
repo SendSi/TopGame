@@ -1,0 +1,40 @@
+syntax = "proto3";
+package login;
+option csharp_namespace = "TopServer";
+
+service LoginService {
+  rpc ListenLogin(LoginRequest) returns (stream LoginResponse);
+
+  rpc LoginIn (LoginReq) returns (LoginRsp);
+  rpc Logout (LogoutReq) returns (LogoutRsp);
+}
+
+//加入监听 请求
+message LoginRequest  {
+}
+
+//加入监听 响应
+message LoginResponse  {
+    oneof LoginMsg{  
+     LoginRsp allItems = 1;
+    }
+}
+
+message LoginReq  {
+  string nickName= 10;
+}
+//结果响应
+message ResultRsp{
+    int32 state=1;//>0则成功
+}
+
+message LoginRsp {
+  string nickName = 10;
+  int32 id = 12;
+}
+
+message LogoutReq {
+}
+
+message LogoutRsp {
+}

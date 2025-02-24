@@ -1,0 +1,72 @@
+syntax = "proto3";
+package bag;
+option csharp_namespace = "TopServer";
+
+service BagService {
+  rpc ListenBag(BagRequest) returns (stream BagResponse);
+
+  rpc BagAllInfo (BagAllInfoRequest) returns (BagAllInfoResponse);
+  rpc BagOneInfo (BagOneInfoRequest) returns (BagOneInfoResponse);
+  rpc BagUsingItem (BagUsingItemRequest) returns (BagUsingItemResponse);
+  rpc OpenBag(OpenBagRequest) returns (OpenBagResponse);
+}
+
+//加入监听 请求
+message BagRequest  {
+}
+
+//加入监听 响应
+message BagResponse  {
+    oneof BagMsg{  
+     ItemDtos itemInfos = 4;
+     int32 testValue=5;
+    }
+}
+
+//获取背包所有 请求
+message BagAllInfoRequest  {
+}
+//获取背包所有 响应
+message BagAllInfoResponse {
+ repeated  ItemDto allItemInfo = 1;
+}
+
+//获取背包某一 请求
+message BagOneInfoRequest  {
+    int32 cfgId=1;
+}
+//获取背包某一 响应
+message BagOneInfoResponse {
+   ItemDto itemDto=5;
+}
+
+//使用背包某一 请求
+message BagUsingItemRequest  {
+    int32 cfgId=1;
+    int32 num=2;
+}
+//使用背包某一 响应
+message BagUsingItemResponse  {
+    int32 cfgId=1;
+    int32 sum=2;
+}
+
+message OpenBagRequest{
+}
+
+// 服务端响应消息定义
+message OpenBagResponse {
+  repeated ItemDto items = 1;
+}
+
+
+//item的 dto
+message ItemDto{
+    int32 cfgId=1;
+    int32  sum=2;
+    string uid=3;
+}
+//items的 dto
+message ItemDtos{
+     repeated  ItemDto itemInfos = 2;
+}

@@ -1,0 +1,66 @@
+syntax = "proto3";
+option csharp_namespace = "TopServer";
+package role;
+
+
+service RoleService {
+  rpc ListenRole(RoleRequest) returns (stream RoleResponse);
+
+  rpc RoleInfo(RoleInfoRequest) returns (RoleInfoResponse);
+  rpc RoleUpLv(RoleUpLvRequest) returns (RoleUpLvResponse);
+  rpc RoleAddVip(RoleAddVipRequest) returns (RoleAddVipResponse);
+}
+
+//加入监听 请求
+message RoleRequest  {
+}
+
+//加入监听 响应
+message RoleResponse  {
+    oneof RoleMsg{  
+     RoleInfo info = 1;
+    }
+}
+
+
+//查看某一角色的 请求
+message RoleInfoRequest {
+  string uid = 10;
+}
+//查看某一角色的 响应
+message RoleInfoResponse {
+  RoleInfo info = 9;
+}
+
+//某一角色的升级 请求
+message RoleUpLvRequest {
+  string uid = 1;
+  int32 lv = 2;
+}
+//某一角色的升级 响应
+message RoleUpLvResponse {
+  RoleInfo info = 9;
+}
+
+
+//某一角色的设置为vip 请求
+message RoleAddVipRequest {
+  string uid = 1;
+}
+//某一角色的设置为vip 响应
+message RoleAddVipResponse {
+  RoleInfo info = 9;
+}
+
+message RoleLevelUpdate{
+  int32 lv = 1;
+}
+
+//角色的dto
+message RoleInfo{
+    string uid=7;
+    string nickname=2;
+    int32 age=3;
+    int32 lv = 4;
+    int32 gender=5;//1男  2女
+}
