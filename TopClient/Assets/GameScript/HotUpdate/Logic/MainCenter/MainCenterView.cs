@@ -15,7 +15,7 @@ namespace MainCenter
             EventCenter.Instance.Bind<int>((int)EventEnumHOT.EE_loginIn, OnEventLoginIn);
 
             _btnAddMJ.onClick.Add(OnClickAddMJ);
-            _btnAddMJ.onClick.Add(OnClickAddDDG);
+            _btnAddDDG.onClick.Add(OnClickAddDDG);
         }
 
         private void OnClickAddDDG()

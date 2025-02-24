@@ -1,7 +1,7 @@
 using System.Collections.Generic;
 using FairyGUI;
 using cfg;
-using UnityEngine;
+
 
 namespace MainCenter
 {
@@ -15,7 +15,7 @@ namespace MainCenter
         {
             base.OnInit();
             
-            _otherBtn.onClick.Add(OnClickOtherBtn);
+   
         }
 
         private void OnClickOtherBtn()
