@@ -14,15 +14,11 @@ namespace CommonPKG
             UIObjectFactory.SetPackageItemExtension(Item_Currency.URL, typeof(Item_Currency));
             UIObjectFactory.SetPackageItemExtension(red_dot.URL, typeof(red_dot));
             UIObjectFactory.SetPackageItemExtension(com_btn_01.URL, typeof(com_btn_01));
-            UIObjectFactory.SetPackageItemExtension(armyBtn.URL, typeof(armyBtn));
             UIObjectFactory.SetPackageItemExtension(Item_Popup1.URL, typeof(Item_Popup1));
             UIObjectFactory.SetPackageItemExtension(plot_btn2.URL, typeof(plot_btn2));
             UIObjectFactory.SetPackageItemExtension(WindowFrame.URL, typeof(WindowFrame));
-            UIObjectFactory.SetPackageItemExtension(EffectRoot.URL, typeof(EffectRoot));
             UIObjectFactory.SetPackageItemExtension(btn_head4.URL, typeof(btn_head4));
             UIObjectFactory.SetPackageItemExtension(comItem.URL, typeof(comItem));
-            UIObjectFactory.SetPackageItemExtension(com_btn_tab3.URL, typeof(com_btn_tab3));
-            UIObjectFactory.SetPackageItemExtension(headmask.URL, typeof(headmask));
             UIObjectFactory.SetPackageItemExtension(com_btnAdd2.URL, typeof(com_btnAdd2));
             UIObjectFactory.SetPackageItemExtension(horseTitle.URL, typeof(horseTitle));
             UIObjectFactory.SetPackageItemExtension(Item_BaseProp.URL, typeof(Item_BaseProp));
@@ -38,7 +34,6 @@ namespace CommonPKG
             UIObjectFactory.SetPackageItemExtension(ToastItem.URL, typeof(ToastItem));
             UIObjectFactory.SetPackageItemExtension(ToastTipView.URL, typeof(ToastTipView));
             UIObjectFactory.SetPackageItemExtension(LoadingView.URL, typeof(LoadingView));
-            UIObjectFactory.SetPackageItemExtension(troopBloodPbr.URL, typeof(troopBloodPbr));
             UIObjectFactory.SetPackageItemExtension(SeasonItemView.URL, typeof(SeasonItemView));
             UIObjectFactory.SetPackageItemExtension(com_btn_02_redPoint.URL, typeof(com_btn_02_redPoint));
             UIObjectFactory.SetPackageItemExtension(CurrencyListCom.URL, typeof(CurrencyListCom));
