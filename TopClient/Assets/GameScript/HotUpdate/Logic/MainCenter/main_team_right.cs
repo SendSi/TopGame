@@ -7,8 +7,7 @@ namespace MainCenter
         public override void OnInit()
         {
             base.OnInit();
-            this._teamList.itemRenderer = OnRendererTeamList;
-            this._teamList.numItems = 2;
+
         }
 
         private void OnRendererTeamList(int index, GObject item)

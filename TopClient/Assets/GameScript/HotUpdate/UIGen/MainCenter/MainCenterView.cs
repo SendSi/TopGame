@@ -7,17 +7,11 @@ namespace MainCenter
 {
     public partial class MainCenterView : GComponent
     {
-        public Controller _cityStateCtrl;
+        public GGraph _bg;
         public FuncListEles _funcListEles;
-        public GImage _bottomBg;
-        public main_chat_item_2 _chatBtn;
-        public GButton _backBtn;
-        public GButton _outBtn;
-        public GList _outInList;
-        public GGroup _bottomEles;
         public MainTopEles _topEles;
-        public MainLeftEles _leftEles;
-        public main_team_right _rightTeam;
+        public GButton _btnAddMJ;
+        public GButton _btnAddDDG;
         public Transition _quit;
         public Transition _approach;
         public Transition _a_personalboss;
@@ -33,17 +27,11 @@ namespace MainCenter
         {
             base.ConstructFromXML(xml);
 
-            _cityStateCtrl = GetController("cityStateCtrl");
+            _bg = (GGraph)GetChild("bg");
             _funcListEles = (FuncListEles)GetChild("funcListEles");
-            _bottomBg = (GImage)GetChild("bottomBg");
-            _chatBtn = (main_chat_item_2)GetChild("chatBtn");
-            _backBtn = (GButton)GetChild("backBtn");
-            _outBtn = (GButton)GetChild("outBtn");
-            _outInList = (GList)GetChild("outInList");
-            _bottomEles = (GGroup)GetChild("bottomEles");
             _topEles = (MainTopEles)GetChild("topEles");
-            _leftEles = (MainLeftEles)GetChild("leftEles");
-            _rightTeam = (main_team_right)GetChild("rightTeam");
+            _btnAddMJ = (GButton)GetChild("btnAddMJ");
+            _btnAddDDG = (GButton)GetChild("btnAddDDG");
             _quit = GetTransition("quit");
             _approach = GetTransition("approach");
             _a_personalboss = GetTransition("a_personalboss");

@@ -18,7 +18,7 @@ namespace MainCenter
                 {
                     RedPoint red = (RedPoint)this._redPoint;
                     
-                    red.SetData(RedDotDefine.BagRoot);
+                    // red.SetData(RedDotDefine.BagRoot);
                 }
                 else
                 {

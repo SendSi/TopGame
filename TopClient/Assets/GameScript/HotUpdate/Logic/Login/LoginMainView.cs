@@ -15,20 +15,9 @@ namespace Login
             AudioMgr.Instance.PlayBGM("music_background");
             ProxyCommonPKGModule.Instance.LoadToastTipView(); //要加载出来 tip
 
-            // Debuger.LogError(ConfigMgr.Instance.GetCurrLangCfgTxt("1001"));
-            // Debuger.LogError(ConfigMgr.Instance.GetCurrLangScriptTxt("1001"));
-
             this._loginBtn.onClick.Set(OnClickLoginEnter);
-            this._ageBtn.onClick.Set(OnClickAgeBtn);
-
-            this._noticeBtn.onClick.Set(OnClickNoticeBtn);
-            this._accountBtn.onClick.Set(OnClickAccountBtn);
-            this._cfgBtn.onClick.Set(OnClickCfgBtn);
-            this._serviceBtn.onClick.Set(OnClickServiceBtn);
-            this._effectBtn.onClick.Set(OnClickEffectBtn);
-            this._stopBtn.onClick.Set(OnClickStopBtn);
-
-            this._testBtn.onClick.Set(OnclickTestBtn);
+            this._outInBtn.onClick.Set(OnClickOutInBtn);
+      
             
             // 简体中文SimChinese  繁体中文TraChinese  英文English 
             if (AppConfig.currLang == "SimChinese") { _currComValue = 0; }
@@ -47,41 +36,8 @@ namespace Login
             _tMove1.Play(999,1,null);
             _tMove2.Play(999,3,null);
         }
-        
-        private void OnClickNoticeBtn()
-        {
-            ProxyLoginModule.Instance.OpenGameNoticeViewWin();
-        }
-
-        private void OnClickEffectBtn()
-        {
-            EffectLoader.Instance.LoadUIEffectEPos("UI_renwulan_1", this._stopBtn, false, EffectPos.Center, (obj) =>
-            {
-                effObject1 = obj;
-            });
-        }
-
-        private void OnClickStopBtn()
-        {
-            if (effObject1 != null)
-            {
-                effObject1.Stop();
-                effObject1 = null;
-            }
-        }
-
-        private void OnClickAgeBtn()
-        {
-            ProxyLoginModule.Instance.OpenGameAgeViewWin();
-        }
-
-        private void OnClickServiceBtn()
-        {
-            ProxyDialogTipModule.Instance.OpenDialogTip1ViewWin("提示", "正在编辑内容", "确定", null);
-            ProxyLoginModule.Instance.OpenServerListRemoteViewWin();
-        }
-
-        private void OnClickAccountBtn()
+    
+        private void OnClickOutInBtn()
         {
             ProxyMainCenterModule.Instance.OpenMainCenterView();
             ProxyLoginModule.Instance.CloseLoginMainView();
@@ -157,10 +113,10 @@ namespace Login
         {
             base.Dispose();
         }
-
         public void SetData(string value)
         {
-            this._title_version.text = value;
+   
         }
+
     }
 }

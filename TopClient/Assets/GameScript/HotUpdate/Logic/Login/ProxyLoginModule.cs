@@ -26,47 +26,9 @@ public class ProxyLoginModule : Singleton<ProxyLoginModule>,IProxy
 
 
 
-    #region GameAgeView打开关闭Window
 
-    public void OpenGameAgeViewWin()
-    {
-        CheckLoad(() => { UIMgr.Instance.OpenWindow<GameAgeViewWin>(); });
-    }
 
-    public void CloseGameAgeViewWin()
-    {
-        UIMgr.Instance.CloseWindow<GameAgeViewWin>();
-    }
 
-    #endregion
-
-    #region GameNoticeView打开关闭Window
-
-    public void OpenGameNoticeViewWin()
-    {
-        CheckLoad(() => { UIMgr.Instance.OpenWindow<GameNoticeViewWin>(); });
-    }
-
-    public void CloseGameNoticeViewWin()
-    {
-        UIMgr.Instance.CloseWindow<GameNoticeViewWin>();
-    }
-
-    #endregion
-
-    #region ServerListDetailView打开关闭Window
-
-    public void OpenServerListDetailViewWin()
-    {
-        CheckLoad(() => { UIMgr.Instance.OpenWindow<ServerListDetailViewWin>(); });
-    }
-
-    public void CloseServerListDetailViewWin()
-    {
-        UIMgr.Instance.CloseWindow<ServerListDetailViewWin>();
-    }
-
-    #endregion
 
     #region ServerListRemoteView打开关闭Window
 

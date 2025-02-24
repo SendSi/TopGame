@@ -6,9 +6,7 @@
     <image id="7oiz9" name="btn_bg_notice.png" path="/images/" exported="true"/>
     <image id="7oiza" name="btn_bg_sweep.png" path="/images/" exported="true"/>
     <image id="7oizb" name="btn_land.png" path="/images/" exported="true" scale="9grid" scale9grid="32,19,272,38"/>
-    <component id="7oize" name="LoginMainView.xml" path="/panel/" exported="true"/>
     <component id="7oizh" name="interactive.xml" path="/components/" exported="true"/>
-    <component id="7oizi" name="ServerListDetailView.xml" path="/panel/" exported="true"/>
     <component id="7oizj" name="paging.xml" path="/components/" exported="true"/>
     <component id="7oizm" name="list_clothes_01.xml" path="/components/" exported="true"/>
     <component id="7oizn" name="list_clothes_02.xml" path="/components/" exported="true"/>
@@ -54,7 +52,6 @@
     <image id="usrj2o" name="com_btn_01.png" path="/images/" exported="true"/>
     <image id="usrj2p" name="com_btn_02.png" path="/images/" exported="true"/>
     <component id="v4de2q" name="start.xml" path="/components/" exported="true"/>
-    <component id="v4de34" name="GameNoticeView.xml" path="/panel/" exported="true"/>
     <image id="mpc835" name="bg.png" path="/images/" exported="true"/>
     <image id="mpc836" name="btn_bg_service.png" path="/images/" exported="true"/>
     <image id="mpc837" name="land_bg11.png" path="/images/" exported="true"/>
@@ -73,7 +70,6 @@
     <image id="cale1ygcg9v" name="land_icon1.png" path="/images/" exported="true"/>
     <image id="cale1ygcg9w" name="land_bg010.png" path="/images/" exported="true" scale="9grid" scale9grid="28,8,76,16"/>
     <component id="cale1ygcg9x" name="landItem1.xml" path="/components/" exported="true"/>
-    <component id="a9my1ygcg9y" name="GameAgeView.xml" path="/panel/" exported="true"/>
     <component id="a9my1ygcg9z" name="title_notice1.xml" path="/components/" exported="true"/>
     <component id="jrst1ygcga0" name="ComboBox1.xml" path="/components/" exported="true"/>
     <component id="jrst1ygcga1" name="ComboBox1_popup.xml" path="/components/" exported="true"/>
@@ -82,7 +78,7 @@
     <image id="jrst1ygcga4" name="button_line1_arrow2.png" path="/images/"/>
     <image id="jrst1ygcga5" name="img_zz_di2.png" path="/images/" exported="true"/>
     <component id="lsme1ygcga6" name="ComboBox1_item.xml" path="/components/"/>
-    <component id="ezv21ygcga7" name="LoginMainView_old.xml" path="/panel/" exported="true"/>
+    <component id="g8uq1ygcga8" name="LoginMainView.xml" path="/panel/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

@@ -8,22 +8,19 @@ namespace Login
     {
         public static void BindAll()
         {
-            UIObjectFactory.SetPackageItemExtension(LoginMainView.URL, typeof(LoginMainView));
-            UIObjectFactory.SetPackageItemExtension(ServerListDetailView.URL, typeof(ServerListDetailView));
             UIObjectFactory.SetPackageItemExtension(paging.URL, typeof(paging));
             UIObjectFactory.SetPackageItemExtension(list_clothes_01.URL, typeof(list_clothes_01));
             UIObjectFactory.SetPackageItemExtension(list_clothes_02.URL, typeof(list_clothes_02));
             UIObjectFactory.SetPackageItemExtension(list_clothes_03.URL, typeof(list_clothes_03));
-            UIObjectFactory.SetPackageItemExtension(GameAgeView.URL, typeof(GameAgeView));
             UIObjectFactory.SetPackageItemExtension(title_notice1.URL, typeof(title_notice1));
             UIObjectFactory.SetPackageItemExtension(list_clothes_00.URL, typeof(list_clothes_00));
             UIObjectFactory.SetPackageItemExtension(landItem1.URL, typeof(landItem1));
             UIObjectFactory.SetPackageItemExtension(title_notice.URL, typeof(title_notice));
-            UIObjectFactory.SetPackageItemExtension(LoginMainView_old.URL, typeof(LoginMainView_old));
             UIObjectFactory.SetPackageItemExtension(tab_02.URL, typeof(tab_02));
             UIObjectFactory.SetPackageItemExtension(plate01.URL, typeof(plate01));
             UIObjectFactory.SetPackageItemExtension(plate02.URL, typeof(plate02));
             UIObjectFactory.SetPackageItemExtension(plate03.URL, typeof(plate03));
+            UIObjectFactory.SetPackageItemExtension(LoginMainView.URL, typeof(LoginMainView));
             UIObjectFactory.SetPackageItemExtension(tab01.URL, typeof(tab01));
             UIObjectFactory.SetPackageItemExtension(ComboBox1_popup.URL, typeof(ComboBox1_popup));
             UIObjectFactory.SetPackageItemExtension(ComboBox1_item.URL, typeof(ComboBox1_item));
@@ -37,7 +34,6 @@ namespace Login
             UIObjectFactory.SetPackageItemExtension(list_clothes_04.URL, typeof(list_clothes_04));
             UIObjectFactory.SetPackageItemExtension(fold.URL, typeof(fold));
             UIObjectFactory.SetPackageItemExtension(start.URL, typeof(start));
-            UIObjectFactory.SetPackageItemExtension(GameNoticeView.URL, typeof(GameNoticeView));
         }
     }
 }

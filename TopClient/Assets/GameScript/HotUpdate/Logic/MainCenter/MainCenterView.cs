@@ -9,19 +9,30 @@ namespace MainCenter
         {
             base.OnInit();
 
-            _backBtn.onClick.Set(OnClickQuitBtn);
-            _outBtn.onClick.Set(OnClickOutBtn);
-
             InitEles();
 
             EventCenter.Instance.Bind<string>((int)EventEnumHOT.EE_test1, OnEventTest);
             EventCenter.Instance.Bind<int>((int)EventEnumHOT.EE_loginIn, OnEventLoginIn);
+
+            _btnAddMJ.onClick.Add(OnClickAddMJ);
+            _btnAddMJ.onClick.Add(OnClickAddDDG);
+        }
+
+        private void OnClickAddDDG()
+        {
+            Debug.LogError("斗地主");
+        }
+
+        private void OnClickAddMJ()
+        {
+            Debug.LogError("麻将");
         }
 
         private void OnEventLoginIn(int arg0)
         {
             Debuger.LogError("OnEventGameOver 值 " + arg0);
         }
+
         private void OnEventTest(string arg0)
         {
             Debuger.LogError("MainCenterView 监听了  EN_test_" + arg0);
@@ -32,14 +43,8 @@ namespace MainCenter
             Debuger.LogError("MainCenterView 监听    EN_test:" + text);
         }
 
-        private void OnClickQuitBtn()
-        {
-
-        }
-
         private void OnClickOutBtn()
         {
-      
         }
 
         public override void Dispose()
@@ -51,14 +56,11 @@ namespace MainCenter
             EventCenter.Instance.UnBind<int>((int)EventEnumHOT.EE_loginIn, OnEventLoginIn);
         }
 
-
         public void SetData()
         {
         }
 
-
         #region UI 各方面的元素
-
         private main_team_right rightTeam;
         private MainTopEles topEles;
         private MainLeftEles leftEles;
@@ -66,14 +68,8 @@ namespace MainCenter
 
         private void InitEles()
         {
-            rightTeam = (main_team_right)_rightTeam; //推荐使用这种吧
-            rightTeam.OnInit();
-
             topEles = (MainTopEles)_topEles;
             topEles.OnInit();
-            
-            leftEles = (MainLeftEles)_leftEles;
-            leftEles.OnInit();
 
             funcListEles = (FuncListEles)_funcListEles;
             funcListEles.OnInit();
@@ -86,7 +82,6 @@ namespace MainCenter
             funcListEles?.Dispose();
             rightTeam?.Dispose();
         }
-
         #endregion
     }
 }
