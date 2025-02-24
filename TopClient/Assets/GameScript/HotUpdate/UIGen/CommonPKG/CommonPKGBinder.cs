@@ -26,6 +26,7 @@ namespace CommonPKG
             UIObjectFactory.SetPackageItemExtension(com_btn_01.URL, typeof(com_btn_01));
             UIObjectFactory.SetPackageItemExtension(armyBtn.URL, typeof(armyBtn));
             UIObjectFactory.SetPackageItemExtension(Item_Popup1.URL, typeof(Item_Popup1));
+            UIObjectFactory.SetPackageItemExtension(plot_btn2.URL, typeof(plot_btn2));
             UIObjectFactory.SetPackageItemExtension(com_btn_icon2.URL, typeof(com_btn_icon2));
             UIObjectFactory.SetPackageItemExtension(generalLock.URL, typeof(generalLock));
             UIObjectFactory.SetPackageItemExtension(WindowFrame.URL, typeof(WindowFrame));

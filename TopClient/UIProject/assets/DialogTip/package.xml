@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<packageDescription id="utp01xia" hasFavorites="true">
+<packageDescription id="utp01xia">
   <resources>
     <component id="m79t2l" name="DialogTip1View.xml" path="/panel/" exported="true"/>
     <component id="m79t16" name="DialogTip2View.xml" path="/panel/" exported="true"/>
@@ -17,7 +17,6 @@
     <image id="ml181ygcfn7" name="8.png" path="/img_font/" exported="true"/>
     <image id="ml181ygcfn8" name="9.png" path="/img_font/" exported="true"/>
     <component id="ff111ygcft3" name="contentTxt3.xml" path="/components/" exported="true"/>
-    <image id="sxlp1ygcg9n" name="main_bg04.png" path="/img_font/" favorite="true" scale="9grid" scale9grid="8,8,5,4"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

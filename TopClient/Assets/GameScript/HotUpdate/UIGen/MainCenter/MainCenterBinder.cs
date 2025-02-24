@@ -8,11 +8,14 @@ namespace MainCenter
     {
         public static void BindAll()
         {
+            UIObjectFactory.SetPackageItemExtension(TroopBoardView.URL, typeof(TroopBoardView));
             UIObjectFactory.SetPackageItemExtension(MainTopBtn.URL, typeof(MainTopBtn));
             UIObjectFactory.SetPackageItemExtension(MainBottomBtn.URL, typeof(MainBottomBtn));
             UIObjectFactory.SetPackageItemExtension(MainCenterView.URL, typeof(MainCenterView));
-            UIObjectFactory.SetPackageItemExtension(main_teamStae.URL, typeof(main_teamStae));
-            UIObjectFactory.SetPackageItemExtension(generalIcon1.URL, typeof(generalIcon1));
+            UIObjectFactory.SetPackageItemExtension(titleContent.URL, typeof(titleContent));
+            UIObjectFactory.SetPackageItemExtension(main_teamItem0.URL, typeof(main_teamItem0));
+            UIObjectFactory.SetPackageItemExtension(sharePlaceView.URL, typeof(sharePlaceView));
+            UIObjectFactory.SetPackageItemExtension(CityViewInfo.URL, typeof(CityViewInfo));
             UIObjectFactory.SetPackageItemExtension(FuncListEles.URL, typeof(FuncListEles));
             UIObjectFactory.SetPackageItemExtension(MainTopEles.URL, typeof(MainTopEles));
         }
