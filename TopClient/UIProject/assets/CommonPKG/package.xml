@@ -263,6 +263,8 @@
     <component id="mnqw1ygcga7" name="InfoTipView.xml" path="/panel/" exported="true"/>
     <component id="mnqw1ygcga8" name="titleContent.xml" path="/panel/" exported="true"/>
     <component id="abva1ygcgrz" name="Item_Popup1.xml" path="/panel/" exported="true"/>
+    <component id="oji91ygcgs0" name="GlobalModalWaiting.xml" path="/panel/" exported="true"/>
+    <image id="oji91ygcgs1" name="icon_zzz.png" path="/images/"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

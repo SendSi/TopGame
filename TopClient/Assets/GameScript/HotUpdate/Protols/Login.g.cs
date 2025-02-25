@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace HYFServer {
+namespace TopServer {
 
   /// <summary>Holder for reflection information generated from login.proto</summary>
   public static partial class LoginReflection {
@@ -32,18 +32,18 @@ namespace HYFServer {
             "UnNwMqUBCgxMb2dpblNlcnZpY2USOgoLTGlzdGVuTG9naW4SEy5sb2dpbi5M",
             "b2dpblJlcXVlc3QaFC5sb2dpbi5Mb2dpblJlc3BvbnNlMAESKwoHTG9naW5J",
             "bhIPLmxvZ2luLkxvZ2luUmVxGg8ubG9naW4uTG9naW5Sc3ASLAoGTG9nb3V0",
-            "EhAubG9naW4uTG9nb3V0UmVxGhAubG9naW4uTG9nb3V0UnNwQgyqAglIWUZT",
+            "EhAubG9naW4uTG9nb3V0UmVxGhAubG9naW4uTG9nb3V0UnNwQgyqAglUb3BT",
             "ZXJ2ZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.LoginRequest), global::HYFServer.LoginRequest.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.LoginResponse), global::HYFServer.LoginResponse.Parser, new[]{ "AllItems" }, new[]{ "LoginMsg" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.LoginReq), global::HYFServer.LoginReq.Parser, new[]{ "NickName" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.ResultRsp), global::HYFServer.ResultRsp.Parser, new[]{ "State" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.LoginRsp), global::HYFServer.LoginRsp.Parser, new[]{ "NickName", "Id" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.LogoutReq), global::HYFServer.LogoutReq.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.LogoutRsp), global::HYFServer.LogoutRsp.Parser, null, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.LoginRequest), global::TopServer.LoginRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.LoginResponse), global::TopServer.LoginResponse.Parser, new[]{ "AllItems" }, new[]{ "LoginMsg" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.LoginReq), global::TopServer.LoginReq.Parser, new[]{ "NickName" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.ResultRsp), global::TopServer.ResultRsp.Parser, new[]{ "State" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.LoginRsp), global::TopServer.LoginRsp.Parser, new[]{ "NickName", "Id" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.LogoutReq), global::TopServer.LogoutReq.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.LogoutRsp), global::TopServer.LogoutRsp.Parser, null, null, null, null, null)
           }));
     }
     #endregion
@@ -67,7 +67,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.LoginReflection.Descriptor.MessageTypes[0]; }
+      get { return global::TopServer.LoginReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -222,7 +222,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.LoginReflection.Descriptor.MessageTypes[1]; }
+      get { return global::TopServer.LoginReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -261,8 +261,8 @@ namespace HYFServer {
     public const int AllItemsFieldNumber = 1;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HYFServer.LoginRsp AllItems {
-      get { return loginMsgCase_ == LoginMsgOneofCase.AllItems ? (global::HYFServer.LoginRsp) loginMsg_ : null; }
+    public global::TopServer.LoginRsp AllItems {
+      get { return loginMsgCase_ == LoginMsgOneofCase.AllItems ? (global::TopServer.LoginRsp) loginMsg_ : null; }
       set {
         loginMsg_ = value;
         loginMsgCase_ = value == null ? LoginMsgOneofCase.None : LoginMsgOneofCase.AllItems;
@@ -379,7 +379,7 @@ namespace HYFServer {
       switch (other.LoginMsgCase) {
         case LoginMsgOneofCase.AllItems:
           if (AllItems == null) {
-            AllItems = new global::HYFServer.LoginRsp();
+            AllItems = new global::TopServer.LoginRsp();
           }
           AllItems.MergeFrom(other.AllItems);
           break;
@@ -401,7 +401,7 @@ namespace HYFServer {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            global::HYFServer.LoginRsp subBuilder = new global::HYFServer.LoginRsp();
+            global::TopServer.LoginRsp subBuilder = new global::TopServer.LoginRsp();
             if (loginMsgCase_ == LoginMsgOneofCase.AllItems) {
               subBuilder.MergeFrom(AllItems);
             }
@@ -425,7 +425,7 @@ namespace HYFServer {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            global::HYFServer.LoginRsp subBuilder = new global::HYFServer.LoginRsp();
+            global::TopServer.LoginRsp subBuilder = new global::TopServer.LoginRsp();
             if (loginMsgCase_ == LoginMsgOneofCase.AllItems) {
               subBuilder.MergeFrom(AllItems);
             }
@@ -454,7 +454,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.LoginReflection.Descriptor.MessageTypes[2]; }
+      get { return global::TopServer.LoginReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -646,7 +646,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.LoginReflection.Descriptor.MessageTypes[3]; }
+      get { return global::TopServer.LoginReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -838,7 +838,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.LoginReflection.Descriptor.MessageTypes[4]; }
+      get { return global::TopServer.LoginReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1064,7 +1064,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.LoginReflection.Descriptor.MessageTypes[5]; }
+      get { return global::TopServer.LoginReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1216,7 +1216,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.LoginReflection.Descriptor.MessageTypes[6]; }
+      get { return global::TopServer.LoginReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

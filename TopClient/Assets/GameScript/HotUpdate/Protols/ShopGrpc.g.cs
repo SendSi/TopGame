@@ -7,7 +7,7 @@
 
 using grpc = global::Grpc.Core;
 
-namespace HYFServer {
+namespace TopServer {
   public static partial class ShopService
   {
     static readonly string __ServiceName = "shop.ShopService";
@@ -46,16 +46,16 @@ namespace HYFServer {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.ShopRequest> __Marshaller_shop_ShopRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.ShopRequest.Parser));
+    static readonly grpc::Marshaller<global::TopServer.ShopRequest> __Marshaller_shop_ShopRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.ShopRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.ShopResponse> __Marshaller_shop_ShopResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.ShopResponse.Parser));
+    static readonly grpc::Marshaller<global::TopServer.ShopResponse> __Marshaller_shop_ShopResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.ShopResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.ShopStateRequest> __Marshaller_shop_ShopStateRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.ShopStateRequest.Parser));
+    static readonly grpc::Marshaller<global::TopServer.ShopStateRequest> __Marshaller_shop_ShopStateRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.ShopStateRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.ShopStateResponse> __Marshaller_shop_ShopStateResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.ShopStateResponse.Parser));
+    static readonly grpc::Marshaller<global::TopServer.ShopStateResponse> __Marshaller_shop_ShopStateResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.ShopStateResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::HYFServer.ShopRequest, global::HYFServer.ShopResponse> __Method_ListenShop = new grpc::Method<global::HYFServer.ShopRequest, global::HYFServer.ShopResponse>(
+    static readonly grpc::Method<global::TopServer.ShopRequest, global::TopServer.ShopResponse> __Method_ListenShop = new grpc::Method<global::TopServer.ShopRequest, global::TopServer.ShopResponse>(
         grpc::MethodType.ServerStreaming,
         __ServiceName,
         "ListenShop",
@@ -63,7 +63,7 @@ namespace HYFServer {
         __Marshaller_shop_ShopResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::HYFServer.ShopStateRequest, global::HYFServer.ShopStateResponse> __Method_ShopState = new grpc::Method<global::HYFServer.ShopStateRequest, global::HYFServer.ShopStateResponse>(
+    static readonly grpc::Method<global::TopServer.ShopStateRequest, global::TopServer.ShopStateResponse> __Method_ShopState = new grpc::Method<global::TopServer.ShopStateRequest, global::TopServer.ShopStateResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "ShopState",
@@ -73,7 +73,7 @@ namespace HYFServer {
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
-      get { return global::HYFServer.ShopReflection.Descriptor.Services[0]; }
+      get { return global::TopServer.ShopReflection.Descriptor.Services[0]; }
     }
 
     /// <summary>Base class for server-side implementations of ShopService</summary>
@@ -81,13 +81,13 @@ namespace HYFServer {
     public abstract partial class ShopServiceBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task ListenShop(global::HYFServer.ShopRequest request, grpc::IServerStreamWriter<global::HYFServer.ShopResponse> responseStream, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task ListenShop(global::TopServer.ShopRequest request, grpc::IServerStreamWriter<global::TopServer.ShopResponse> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::HYFServer.ShopStateResponse> ShopState(global::HYFServer.ShopStateRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::TopServer.ShopStateResponse> ShopState(global::TopServer.ShopStateRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -122,32 +122,32 @@ namespace HYFServer {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncServerStreamingCall<global::HYFServer.ShopResponse> ListenShop(global::HYFServer.ShopRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncServerStreamingCall<global::TopServer.ShopResponse> ListenShop(global::TopServer.ShopRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListenShop(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncServerStreamingCall<global::HYFServer.ShopResponse> ListenShop(global::HYFServer.ShopRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncServerStreamingCall<global::TopServer.ShopResponse> ListenShop(global::TopServer.ShopRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_ListenShop, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.ShopStateResponse ShopState(global::HYFServer.ShopStateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::TopServer.ShopStateResponse ShopState(global::TopServer.ShopStateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ShopState(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.ShopStateResponse ShopState(global::HYFServer.ShopStateRequest request, grpc::CallOptions options)
+      public virtual global::TopServer.ShopStateResponse ShopState(global::TopServer.ShopStateRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_ShopState, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.ShopStateResponse> ShopStateAsync(global::HYFServer.ShopStateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::TopServer.ShopStateResponse> ShopStateAsync(global::TopServer.ShopStateRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ShopStateAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.ShopStateResponse> ShopStateAsync(global::HYFServer.ShopStateRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::TopServer.ShopStateResponse> ShopStateAsync(global::TopServer.ShopStateRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_ShopState, null, options, request);
       }
@@ -176,8 +176,8 @@ namespace HYFServer {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, ShopServiceBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_ListenShop, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::HYFServer.ShopRequest, global::HYFServer.ShopResponse>(serviceImpl.ListenShop));
-      serviceBinder.AddMethod(__Method_ShopState, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::HYFServer.ShopStateRequest, global::HYFServer.ShopStateResponse>(serviceImpl.ShopState));
+      serviceBinder.AddMethod(__Method_ListenShop, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::TopServer.ShopRequest, global::TopServer.ShopResponse>(serviceImpl.ListenShop));
+      serviceBinder.AddMethod(__Method_ShopState, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::TopServer.ShopStateRequest, global::TopServer.ShopStateResponse>(serviceImpl.ShopState));
     }
 
   }

@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace HYFServer {
+namespace TopServer {
 
   /// <summary>Holder for reflection information generated from shop.proto</summary>
   public static partial class ShopReflection {
@@ -33,15 +33,15 @@ namespace HYFServer {
             "Eg0KBXN0YXRlGAIgASgIMoIBCgtTaG9wU2VydmljZRI1CgpMaXN0ZW5TaG9w",
             "EhEuc2hvcC5TaG9wUmVxdWVzdBoSLnNob3AuU2hvcFJlc3BvbnNlMAESPAoJ",
             "U2hvcFN0YXRlEhYuc2hvcC5TaG9wU3RhdGVSZXF1ZXN0Ghcuc2hvcC5TaG9w",
-            "U3RhdGVSZXNwb25zZUIMqgIJSFlGU2VydmVyYgZwcm90bzM="));
+            "U3RhdGVSZXNwb25zZUIMqgIJVG9wU2VydmVyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.ShopRequest), global::HYFServer.ShopRequest.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.ShopResponse), global::HYFServer.ShopResponse.Parser, new[]{ "AllStates", "OneState" }, new[]{ "ListenMsg" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.ShopStates), global::HYFServer.ShopStates.Parser, new[]{ "Item" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.ShopStateRequest), global::HYFServer.ShopStateRequest.Parser, new[]{ "CfgId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.ShopStateResponse), global::HYFServer.ShopStateResponse.Parser, new[]{ "CfgId", "State" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.ShopRequest), global::TopServer.ShopRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.ShopResponse), global::TopServer.ShopResponse.Parser, new[]{ "AllStates", "OneState" }, new[]{ "ListenMsg" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.ShopStates), global::TopServer.ShopStates.Parser, new[]{ "Item" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.ShopStateRequest), global::TopServer.ShopStateRequest.Parser, new[]{ "CfgId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.ShopStateResponse), global::TopServer.ShopStateResponse.Parser, new[]{ "CfgId", "State" }, null, null, null, null)
           }));
     }
     #endregion
@@ -62,7 +62,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.ShopReflection.Descriptor.MessageTypes[0]; }
+      get { return global::TopServer.ShopReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -214,7 +214,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.ShopReflection.Descriptor.MessageTypes[1]; }
+      get { return global::TopServer.ShopReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -259,8 +259,8 @@ namespace HYFServer {
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HYFServer.ShopStates AllStates {
-      get { return listenMsgCase_ == ListenMsgOneofCase.AllStates ? (global::HYFServer.ShopStates) listenMsg_ : null; }
+    public global::TopServer.ShopStates AllStates {
+      get { return listenMsgCase_ == ListenMsgOneofCase.AllStates ? (global::TopServer.ShopStates) listenMsg_ : null; }
       set {
         listenMsg_ = value;
         listenMsgCase_ = value == null ? ListenMsgOneofCase.None : ListenMsgOneofCase.AllStates;
@@ -274,8 +274,8 @@ namespace HYFServer {
     /// </summary>
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HYFServer.ShopStateResponse OneState {
-      get { return listenMsgCase_ == ListenMsgOneofCase.OneState ? (global::HYFServer.ShopStateResponse) listenMsg_ : null; }
+    public global::TopServer.ShopStateResponse OneState {
+      get { return listenMsgCase_ == ListenMsgOneofCase.OneState ? (global::TopServer.ShopStateResponse) listenMsg_ : null; }
       set {
         listenMsg_ = value;
         listenMsgCase_ = value == null ? ListenMsgOneofCase.None : ListenMsgOneofCase.OneState;
@@ -406,13 +406,13 @@ namespace HYFServer {
       switch (other.ListenMsgCase) {
         case ListenMsgOneofCase.AllStates:
           if (AllStates == null) {
-            AllStates = new global::HYFServer.ShopStates();
+            AllStates = new global::TopServer.ShopStates();
           }
           AllStates.MergeFrom(other.AllStates);
           break;
         case ListenMsgOneofCase.OneState:
           if (OneState == null) {
-            OneState = new global::HYFServer.ShopStateResponse();
+            OneState = new global::TopServer.ShopStateResponse();
           }
           OneState.MergeFrom(other.OneState);
           break;
@@ -434,7 +434,7 @@ namespace HYFServer {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 18: {
-            global::HYFServer.ShopStateResponse subBuilder = new global::HYFServer.ShopStateResponse();
+            global::TopServer.ShopStateResponse subBuilder = new global::TopServer.ShopStateResponse();
             if (listenMsgCase_ == ListenMsgOneofCase.OneState) {
               subBuilder.MergeFrom(OneState);
             }
@@ -443,7 +443,7 @@ namespace HYFServer {
             break;
           }
           case 26: {
-            global::HYFServer.ShopStates subBuilder = new global::HYFServer.ShopStates();
+            global::TopServer.ShopStates subBuilder = new global::TopServer.ShopStates();
             if (listenMsgCase_ == ListenMsgOneofCase.AllStates) {
               subBuilder.MergeFrom(AllStates);
             }
@@ -467,7 +467,7 @@ namespace HYFServer {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 18: {
-            global::HYFServer.ShopStateResponse subBuilder = new global::HYFServer.ShopStateResponse();
+            global::TopServer.ShopStateResponse subBuilder = new global::TopServer.ShopStateResponse();
             if (listenMsgCase_ == ListenMsgOneofCase.OneState) {
               subBuilder.MergeFrom(OneState);
             }
@@ -476,7 +476,7 @@ namespace HYFServer {
             break;
           }
           case 26: {
-            global::HYFServer.ShopStates subBuilder = new global::HYFServer.ShopStates();
+            global::TopServer.ShopStates subBuilder = new global::TopServer.ShopStates();
             if (listenMsgCase_ == ListenMsgOneofCase.AllStates) {
               subBuilder.MergeFrom(AllStates);
             }
@@ -505,7 +505,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.ShopReflection.Descriptor.MessageTypes[2]; }
+      get { return global::TopServer.ShopReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -537,12 +537,12 @@ namespace HYFServer {
 
     /// <summary>Field number for the "item" field.</summary>
     public const int ItemFieldNumber = 3;
-    private static readonly pb::FieldCodec<global::HYFServer.ShopStateResponse> _repeated_item_codec
-        = pb::FieldCodec.ForMessage(26, global::HYFServer.ShopStateResponse.Parser);
-    private readonly pbc::RepeatedField<global::HYFServer.ShopStateResponse> item_ = new pbc::RepeatedField<global::HYFServer.ShopStateResponse>();
+    private static readonly pb::FieldCodec<global::TopServer.ShopStateResponse> _repeated_item_codec
+        = pb::FieldCodec.ForMessage(26, global::TopServer.ShopStateResponse.Parser);
+    private readonly pbc::RepeatedField<global::TopServer.ShopStateResponse> item_ = new pbc::RepeatedField<global::TopServer.ShopStateResponse>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::HYFServer.ShopStateResponse> Item {
+    public pbc::RepeatedField<global::TopServer.ShopStateResponse> Item {
       get { return item_; }
     }
 
@@ -683,7 +683,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.ShopReflection.Descriptor.MessageTypes[3]; }
+      get { return global::TopServer.ShopReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -872,7 +872,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.ShopReflection.Descriptor.MessageTypes[4]; }
+      get { return global::TopServer.ShopReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

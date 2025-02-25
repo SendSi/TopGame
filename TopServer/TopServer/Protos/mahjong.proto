@@ -1,0 +1,31 @@
+syntax = "proto3";
+package mahjong;
+option csharp_namespace = "TopServer";
+
+service MahJongService {
+  rpc ListenMahJong(MahJongRequest) returns (stream MahJongResponse);
+
+  rpc EnterMahJong(MahJongEnterRequest) returns (MahJongEnterResponse);
+
+}
+
+//加入监听 请求
+message MahJongRequest  {
+}
+
+//加入监听 响应
+message MahJongResponse  {
+  
+}
+
+
+
+message MahJongEnterRequest{
+
+}
+
+message MahJongEnterResponse {
+
+}
+
+

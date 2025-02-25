@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace HYFServer {
+namespace TopServer {
 
   /// <summary>Holder for reflection information generated from role.proto</summary>
   public static partial class RoleReflection {
@@ -40,20 +40,20 @@ namespace HYFServer {
             "bGVJbmZvUmVzcG9uc2USOQoIUm9sZVVwTHYSFS5yb2xlLlJvbGVVcEx2UmVx",
             "dWVzdBoWLnJvbGUuUm9sZVVwTHZSZXNwb25zZRI/CgpSb2xlQWRkVmlwEhcu",
             "cm9sZS5Sb2xlQWRkVmlwUmVxdWVzdBoYLnJvbGUuUm9sZUFkZFZpcFJlc3Bv",
-            "bnNlQgyqAglIWUZTZXJ2ZXJiBnByb3RvMw=="));
+            "bnNlQgyqAglUb3BTZXJ2ZXJiBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleRequest), global::HYFServer.RoleRequest.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleResponse), global::HYFServer.RoleResponse.Parser, new[]{ "Info" }, new[]{ "RoleMsg" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleInfoRequest), global::HYFServer.RoleInfoRequest.Parser, new[]{ "Uid" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleInfoResponse), global::HYFServer.RoleInfoResponse.Parser, new[]{ "Info" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleUpLvRequest), global::HYFServer.RoleUpLvRequest.Parser, new[]{ "Uid", "Lv" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleUpLvResponse), global::HYFServer.RoleUpLvResponse.Parser, new[]{ "Info" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleAddVipRequest), global::HYFServer.RoleAddVipRequest.Parser, new[]{ "Uid" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleAddVipResponse), global::HYFServer.RoleAddVipResponse.Parser, new[]{ "Info" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleLevelUpdate), global::HYFServer.RoleLevelUpdate.Parser, new[]{ "Lv" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.RoleInfo), global::HYFServer.RoleInfo.Parser, new[]{ "Uid", "Nickname", "Age", "Lv", "Gender" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleRequest), global::TopServer.RoleRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleResponse), global::TopServer.RoleResponse.Parser, new[]{ "Info" }, new[]{ "RoleMsg" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleInfoRequest), global::TopServer.RoleInfoRequest.Parser, new[]{ "Uid" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleInfoResponse), global::TopServer.RoleInfoResponse.Parser, new[]{ "Info" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleUpLvRequest), global::TopServer.RoleUpLvRequest.Parser, new[]{ "Uid", "Lv" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleUpLvResponse), global::TopServer.RoleUpLvResponse.Parser, new[]{ "Info" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleAddVipRequest), global::TopServer.RoleAddVipRequest.Parser, new[]{ "Uid" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleAddVipResponse), global::TopServer.RoleAddVipResponse.Parser, new[]{ "Info" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleLevelUpdate), global::TopServer.RoleLevelUpdate.Parser, new[]{ "Lv" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.RoleInfo), global::TopServer.RoleInfo.Parser, new[]{ "Uid", "Nickname", "Age", "Lv", "Gender" }, null, null, null, null)
           }));
     }
     #endregion
@@ -77,7 +77,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[0]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -232,7 +232,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[1]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -271,8 +271,8 @@ namespace HYFServer {
     public const int InfoFieldNumber = 1;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HYFServer.RoleInfo Info {
-      get { return roleMsgCase_ == RoleMsgOneofCase.Info ? (global::HYFServer.RoleInfo) roleMsg_ : null; }
+    public global::TopServer.RoleInfo Info {
+      get { return roleMsgCase_ == RoleMsgOneofCase.Info ? (global::TopServer.RoleInfo) roleMsg_ : null; }
       set {
         roleMsg_ = value;
         roleMsgCase_ = value == null ? RoleMsgOneofCase.None : RoleMsgOneofCase.Info;
@@ -389,7 +389,7 @@ namespace HYFServer {
       switch (other.RoleMsgCase) {
         case RoleMsgOneofCase.Info:
           if (Info == null) {
-            Info = new global::HYFServer.RoleInfo();
+            Info = new global::TopServer.RoleInfo();
           }
           Info.MergeFrom(other.Info);
           break;
@@ -411,7 +411,7 @@ namespace HYFServer {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 10: {
-            global::HYFServer.RoleInfo subBuilder = new global::HYFServer.RoleInfo();
+            global::TopServer.RoleInfo subBuilder = new global::TopServer.RoleInfo();
             if (roleMsgCase_ == RoleMsgOneofCase.Info) {
               subBuilder.MergeFrom(Info);
             }
@@ -435,7 +435,7 @@ namespace HYFServer {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 10: {
-            global::HYFServer.RoleInfo subBuilder = new global::HYFServer.RoleInfo();
+            global::TopServer.RoleInfo subBuilder = new global::TopServer.RoleInfo();
             if (roleMsgCase_ == RoleMsgOneofCase.Info) {
               subBuilder.MergeFrom(Info);
             }
@@ -467,7 +467,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[2]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -659,7 +659,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[3]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -691,10 +691,10 @@ namespace HYFServer {
 
     /// <summary>Field number for the "info" field.</summary>
     public const int InfoFieldNumber = 9;
-    private global::HYFServer.RoleInfo info_;
+    private global::TopServer.RoleInfo info_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HYFServer.RoleInfo Info {
+    public global::TopServer.RoleInfo Info {
       get { return info_; }
       set {
         info_ = value;
@@ -788,7 +788,7 @@ namespace HYFServer {
       }
       if (other.info_ != null) {
         if (info_ == null) {
-          Info = new global::HYFServer.RoleInfo();
+          Info = new global::TopServer.RoleInfo();
         }
         Info.MergeFrom(other.Info);
       }
@@ -809,7 +809,7 @@ namespace HYFServer {
             break;
           case 74: {
             if (info_ == null) {
-              Info = new global::HYFServer.RoleInfo();
+              Info = new global::TopServer.RoleInfo();
             }
             input.ReadMessage(Info);
             break;
@@ -831,7 +831,7 @@ namespace HYFServer {
             break;
           case 74: {
             if (info_ == null) {
-              Info = new global::HYFServer.RoleInfo();
+              Info = new global::TopServer.RoleInfo();
             }
             input.ReadMessage(Info);
             break;
@@ -860,7 +860,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[4]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1089,7 +1089,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[5]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1121,10 +1121,10 @@ namespace HYFServer {
 
     /// <summary>Field number for the "info" field.</summary>
     public const int InfoFieldNumber = 9;
-    private global::HYFServer.RoleInfo info_;
+    private global::TopServer.RoleInfo info_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HYFServer.RoleInfo Info {
+    public global::TopServer.RoleInfo Info {
       get { return info_; }
       set {
         info_ = value;
@@ -1218,7 +1218,7 @@ namespace HYFServer {
       }
       if (other.info_ != null) {
         if (info_ == null) {
-          Info = new global::HYFServer.RoleInfo();
+          Info = new global::TopServer.RoleInfo();
         }
         Info.MergeFrom(other.Info);
       }
@@ -1239,7 +1239,7 @@ namespace HYFServer {
             break;
           case 74: {
             if (info_ == null) {
-              Info = new global::HYFServer.RoleInfo();
+              Info = new global::TopServer.RoleInfo();
             }
             input.ReadMessage(Info);
             break;
@@ -1261,7 +1261,7 @@ namespace HYFServer {
             break;
           case 74: {
             if (info_ == null) {
-              Info = new global::HYFServer.RoleInfo();
+              Info = new global::TopServer.RoleInfo();
             }
             input.ReadMessage(Info);
             break;
@@ -1290,7 +1290,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[6]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1482,7 +1482,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[7]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1514,10 +1514,10 @@ namespace HYFServer {
 
     /// <summary>Field number for the "info" field.</summary>
     public const int InfoFieldNumber = 9;
-    private global::HYFServer.RoleInfo info_;
+    private global::TopServer.RoleInfo info_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HYFServer.RoleInfo Info {
+    public global::TopServer.RoleInfo Info {
       get { return info_; }
       set {
         info_ = value;
@@ -1611,7 +1611,7 @@ namespace HYFServer {
       }
       if (other.info_ != null) {
         if (info_ == null) {
-          Info = new global::HYFServer.RoleInfo();
+          Info = new global::TopServer.RoleInfo();
         }
         Info.MergeFrom(other.Info);
       }
@@ -1632,7 +1632,7 @@ namespace HYFServer {
             break;
           case 74: {
             if (info_ == null) {
-              Info = new global::HYFServer.RoleInfo();
+              Info = new global::TopServer.RoleInfo();
             }
             input.ReadMessage(Info);
             break;
@@ -1654,7 +1654,7 @@ namespace HYFServer {
             break;
           case 74: {
             if (info_ == null) {
-              Info = new global::HYFServer.RoleInfo();
+              Info = new global::TopServer.RoleInfo();
             }
             input.ReadMessage(Info);
             break;
@@ -1680,7 +1680,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[8]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1872,7 +1872,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.RoleReflection.Descriptor.MessageTypes[9]; }
+      get { return global::TopServer.RoleReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]

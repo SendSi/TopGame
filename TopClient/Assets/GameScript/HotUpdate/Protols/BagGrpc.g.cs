@@ -7,7 +7,7 @@
 
 using grpc = global::Grpc.Core;
 
-namespace HYFServer {
+namespace TopServer {
   public static partial class BagService
   {
     static readonly string __ServiceName = "bag.BagService";
@@ -46,28 +46,28 @@ namespace HYFServer {
     }
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.BagRequest> __Marshaller_bag_BagRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.BagRequest.Parser));
+    static readonly grpc::Marshaller<global::TopServer.BagRequest> __Marshaller_bag_BagRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.BagRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.BagResponse> __Marshaller_bag_BagResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.BagResponse.Parser));
+    static readonly grpc::Marshaller<global::TopServer.BagResponse> __Marshaller_bag_BagResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.BagResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.BagAllInfoRequest> __Marshaller_bag_BagAllInfoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.BagAllInfoRequest.Parser));
+    static readonly grpc::Marshaller<global::TopServer.BagAllInfoRequest> __Marshaller_bag_BagAllInfoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.BagAllInfoRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.BagAllInfoResponse> __Marshaller_bag_BagAllInfoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.BagAllInfoResponse.Parser));
+    static readonly grpc::Marshaller<global::TopServer.BagAllInfoResponse> __Marshaller_bag_BagAllInfoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.BagAllInfoResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.BagOneInfoRequest> __Marshaller_bag_BagOneInfoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.BagOneInfoRequest.Parser));
+    static readonly grpc::Marshaller<global::TopServer.BagOneInfoRequest> __Marshaller_bag_BagOneInfoRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.BagOneInfoRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.BagOneInfoResponse> __Marshaller_bag_BagOneInfoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.BagOneInfoResponse.Parser));
+    static readonly grpc::Marshaller<global::TopServer.BagOneInfoResponse> __Marshaller_bag_BagOneInfoResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.BagOneInfoResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.BagUsingItemRequest> __Marshaller_bag_BagUsingItemRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.BagUsingItemRequest.Parser));
+    static readonly grpc::Marshaller<global::TopServer.BagUsingItemRequest> __Marshaller_bag_BagUsingItemRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.BagUsingItemRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.BagUsingItemResponse> __Marshaller_bag_BagUsingItemResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.BagUsingItemResponse.Parser));
+    static readonly grpc::Marshaller<global::TopServer.BagUsingItemResponse> __Marshaller_bag_BagUsingItemResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.BagUsingItemResponse.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.OpenBagRequest> __Marshaller_bag_OpenBagRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.OpenBagRequest.Parser));
+    static readonly grpc::Marshaller<global::TopServer.OpenBagRequest> __Marshaller_bag_OpenBagRequest = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.OpenBagRequest.Parser));
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Marshaller<global::HYFServer.OpenBagResponse> __Marshaller_bag_OpenBagResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::HYFServer.OpenBagResponse.Parser));
+    static readonly grpc::Marshaller<global::TopServer.OpenBagResponse> __Marshaller_bag_OpenBagResponse = grpc::Marshallers.Create(__Helper_SerializeMessage, context => __Helper_DeserializeMessage(context, global::TopServer.OpenBagResponse.Parser));
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::HYFServer.BagRequest, global::HYFServer.BagResponse> __Method_ListenBag = new grpc::Method<global::HYFServer.BagRequest, global::HYFServer.BagResponse>(
+    static readonly grpc::Method<global::TopServer.BagRequest, global::TopServer.BagResponse> __Method_ListenBag = new grpc::Method<global::TopServer.BagRequest, global::TopServer.BagResponse>(
         grpc::MethodType.ServerStreaming,
         __ServiceName,
         "ListenBag",
@@ -75,7 +75,7 @@ namespace HYFServer {
         __Marshaller_bag_BagResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::HYFServer.BagAllInfoRequest, global::HYFServer.BagAllInfoResponse> __Method_BagAllInfo = new grpc::Method<global::HYFServer.BagAllInfoRequest, global::HYFServer.BagAllInfoResponse>(
+    static readonly grpc::Method<global::TopServer.BagAllInfoRequest, global::TopServer.BagAllInfoResponse> __Method_BagAllInfo = new grpc::Method<global::TopServer.BagAllInfoRequest, global::TopServer.BagAllInfoResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "BagAllInfo",
@@ -83,7 +83,7 @@ namespace HYFServer {
         __Marshaller_bag_BagAllInfoResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::HYFServer.BagOneInfoRequest, global::HYFServer.BagOneInfoResponse> __Method_BagOneInfo = new grpc::Method<global::HYFServer.BagOneInfoRequest, global::HYFServer.BagOneInfoResponse>(
+    static readonly grpc::Method<global::TopServer.BagOneInfoRequest, global::TopServer.BagOneInfoResponse> __Method_BagOneInfo = new grpc::Method<global::TopServer.BagOneInfoRequest, global::TopServer.BagOneInfoResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "BagOneInfo",
@@ -91,7 +91,7 @@ namespace HYFServer {
         __Marshaller_bag_BagOneInfoResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::HYFServer.BagUsingItemRequest, global::HYFServer.BagUsingItemResponse> __Method_BagUsingItem = new grpc::Method<global::HYFServer.BagUsingItemRequest, global::HYFServer.BagUsingItemResponse>(
+    static readonly grpc::Method<global::TopServer.BagUsingItemRequest, global::TopServer.BagUsingItemResponse> __Method_BagUsingItem = new grpc::Method<global::TopServer.BagUsingItemRequest, global::TopServer.BagUsingItemResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "BagUsingItem",
@@ -99,7 +99,7 @@ namespace HYFServer {
         __Marshaller_bag_BagUsingItemResponse);
 
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-    static readonly grpc::Method<global::HYFServer.OpenBagRequest, global::HYFServer.OpenBagResponse> __Method_OpenBag = new grpc::Method<global::HYFServer.OpenBagRequest, global::HYFServer.OpenBagResponse>(
+    static readonly grpc::Method<global::TopServer.OpenBagRequest, global::TopServer.OpenBagResponse> __Method_OpenBag = new grpc::Method<global::TopServer.OpenBagRequest, global::TopServer.OpenBagResponse>(
         grpc::MethodType.Unary,
         __ServiceName,
         "OpenBag",
@@ -109,7 +109,7 @@ namespace HYFServer {
     /// <summary>Service descriptor</summary>
     public static global::Google.Protobuf.Reflection.ServiceDescriptor Descriptor
     {
-      get { return global::HYFServer.BagReflection.Descriptor.Services[0]; }
+      get { return global::TopServer.BagReflection.Descriptor.Services[0]; }
     }
 
     /// <summary>Base class for server-side implementations of BagService</summary>
@@ -117,31 +117,31 @@ namespace HYFServer {
     public abstract partial class BagServiceBase
     {
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task ListenBag(global::HYFServer.BagRequest request, grpc::IServerStreamWriter<global::HYFServer.BagResponse> responseStream, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task ListenBag(global::TopServer.BagRequest request, grpc::IServerStreamWriter<global::TopServer.BagResponse> responseStream, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::HYFServer.BagAllInfoResponse> BagAllInfo(global::HYFServer.BagAllInfoRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::TopServer.BagAllInfoResponse> BagAllInfo(global::TopServer.BagAllInfoRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::HYFServer.BagOneInfoResponse> BagOneInfo(global::HYFServer.BagOneInfoRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::TopServer.BagOneInfoResponse> BagOneInfo(global::TopServer.BagOneInfoRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::HYFServer.BagUsingItemResponse> BagUsingItem(global::HYFServer.BagUsingItemRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::TopServer.BagUsingItemResponse> BagUsingItem(global::TopServer.BagUsingItemRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::System.Threading.Tasks.Task<global::HYFServer.OpenBagResponse> OpenBag(global::HYFServer.OpenBagRequest request, grpc::ServerCallContext context)
+      public virtual global::System.Threading.Tasks.Task<global::TopServer.OpenBagResponse> OpenBag(global::TopServer.OpenBagRequest request, grpc::ServerCallContext context)
       {
         throw new grpc::RpcException(new grpc::Status(grpc::StatusCode.Unimplemented, ""));
       }
@@ -176,92 +176,92 @@ namespace HYFServer {
       }
 
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncServerStreamingCall<global::HYFServer.BagResponse> ListenBag(global::HYFServer.BagRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncServerStreamingCall<global::TopServer.BagResponse> ListenBag(global::TopServer.BagRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return ListenBag(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncServerStreamingCall<global::HYFServer.BagResponse> ListenBag(global::HYFServer.BagRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncServerStreamingCall<global::TopServer.BagResponse> ListenBag(global::TopServer.BagRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncServerStreamingCall(__Method_ListenBag, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.BagAllInfoResponse BagAllInfo(global::HYFServer.BagAllInfoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::TopServer.BagAllInfoResponse BagAllInfo(global::TopServer.BagAllInfoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BagAllInfo(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.BagAllInfoResponse BagAllInfo(global::HYFServer.BagAllInfoRequest request, grpc::CallOptions options)
+      public virtual global::TopServer.BagAllInfoResponse BagAllInfo(global::TopServer.BagAllInfoRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_BagAllInfo, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.BagAllInfoResponse> BagAllInfoAsync(global::HYFServer.BagAllInfoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::TopServer.BagAllInfoResponse> BagAllInfoAsync(global::TopServer.BagAllInfoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BagAllInfoAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.BagAllInfoResponse> BagAllInfoAsync(global::HYFServer.BagAllInfoRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::TopServer.BagAllInfoResponse> BagAllInfoAsync(global::TopServer.BagAllInfoRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_BagAllInfo, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.BagOneInfoResponse BagOneInfo(global::HYFServer.BagOneInfoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::TopServer.BagOneInfoResponse BagOneInfo(global::TopServer.BagOneInfoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BagOneInfo(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.BagOneInfoResponse BagOneInfo(global::HYFServer.BagOneInfoRequest request, grpc::CallOptions options)
+      public virtual global::TopServer.BagOneInfoResponse BagOneInfo(global::TopServer.BagOneInfoRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_BagOneInfo, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.BagOneInfoResponse> BagOneInfoAsync(global::HYFServer.BagOneInfoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::TopServer.BagOneInfoResponse> BagOneInfoAsync(global::TopServer.BagOneInfoRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BagOneInfoAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.BagOneInfoResponse> BagOneInfoAsync(global::HYFServer.BagOneInfoRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::TopServer.BagOneInfoResponse> BagOneInfoAsync(global::TopServer.BagOneInfoRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_BagOneInfo, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.BagUsingItemResponse BagUsingItem(global::HYFServer.BagUsingItemRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::TopServer.BagUsingItemResponse BagUsingItem(global::TopServer.BagUsingItemRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BagUsingItem(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.BagUsingItemResponse BagUsingItem(global::HYFServer.BagUsingItemRequest request, grpc::CallOptions options)
+      public virtual global::TopServer.BagUsingItemResponse BagUsingItem(global::TopServer.BagUsingItemRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_BagUsingItem, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.BagUsingItemResponse> BagUsingItemAsync(global::HYFServer.BagUsingItemRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::TopServer.BagUsingItemResponse> BagUsingItemAsync(global::TopServer.BagUsingItemRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return BagUsingItemAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.BagUsingItemResponse> BagUsingItemAsync(global::HYFServer.BagUsingItemRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::TopServer.BagUsingItemResponse> BagUsingItemAsync(global::TopServer.BagUsingItemRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_BagUsingItem, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.OpenBagResponse OpenBag(global::HYFServer.OpenBagRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual global::TopServer.OpenBagResponse OpenBag(global::TopServer.OpenBagRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return OpenBag(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual global::HYFServer.OpenBagResponse OpenBag(global::HYFServer.OpenBagRequest request, grpc::CallOptions options)
+      public virtual global::TopServer.OpenBagResponse OpenBag(global::TopServer.OpenBagRequest request, grpc::CallOptions options)
       {
         return CallInvoker.BlockingUnaryCall(__Method_OpenBag, null, options, request);
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.OpenBagResponse> OpenBagAsync(global::HYFServer.OpenBagRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
+      public virtual grpc::AsyncUnaryCall<global::TopServer.OpenBagResponse> OpenBagAsync(global::TopServer.OpenBagRequest request, grpc::Metadata headers = null, global::System.DateTime? deadline = null, global::System.Threading.CancellationToken cancellationToken = default(global::System.Threading.CancellationToken))
       {
         return OpenBagAsync(request, new grpc::CallOptions(headers, deadline, cancellationToken));
       }
       [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
-      public virtual grpc::AsyncUnaryCall<global::HYFServer.OpenBagResponse> OpenBagAsync(global::HYFServer.OpenBagRequest request, grpc::CallOptions options)
+      public virtual grpc::AsyncUnaryCall<global::TopServer.OpenBagResponse> OpenBagAsync(global::TopServer.OpenBagRequest request, grpc::CallOptions options)
       {
         return CallInvoker.AsyncUnaryCall(__Method_OpenBag, null, options, request);
       }
@@ -293,11 +293,11 @@ namespace HYFServer {
     [global::System.CodeDom.Compiler.GeneratedCode("grpc_csharp_plugin", null)]
     public static void BindService(grpc::ServiceBinderBase serviceBinder, BagServiceBase serviceImpl)
     {
-      serviceBinder.AddMethod(__Method_ListenBag, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::HYFServer.BagRequest, global::HYFServer.BagResponse>(serviceImpl.ListenBag));
-      serviceBinder.AddMethod(__Method_BagAllInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::HYFServer.BagAllInfoRequest, global::HYFServer.BagAllInfoResponse>(serviceImpl.BagAllInfo));
-      serviceBinder.AddMethod(__Method_BagOneInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::HYFServer.BagOneInfoRequest, global::HYFServer.BagOneInfoResponse>(serviceImpl.BagOneInfo));
-      serviceBinder.AddMethod(__Method_BagUsingItem, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::HYFServer.BagUsingItemRequest, global::HYFServer.BagUsingItemResponse>(serviceImpl.BagUsingItem));
-      serviceBinder.AddMethod(__Method_OpenBag, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::HYFServer.OpenBagRequest, global::HYFServer.OpenBagResponse>(serviceImpl.OpenBag));
+      serviceBinder.AddMethod(__Method_ListenBag, serviceImpl == null ? null : new grpc::ServerStreamingServerMethod<global::TopServer.BagRequest, global::TopServer.BagResponse>(serviceImpl.ListenBag));
+      serviceBinder.AddMethod(__Method_BagAllInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::TopServer.BagAllInfoRequest, global::TopServer.BagAllInfoResponse>(serviceImpl.BagAllInfo));
+      serviceBinder.AddMethod(__Method_BagOneInfo, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::TopServer.BagOneInfoRequest, global::TopServer.BagOneInfoResponse>(serviceImpl.BagOneInfo));
+      serviceBinder.AddMethod(__Method_BagUsingItem, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::TopServer.BagUsingItemRequest, global::TopServer.BagUsingItemResponse>(serviceImpl.BagUsingItem));
+      serviceBinder.AddMethod(__Method_OpenBag, serviceImpl == null ? null : new grpc::UnaryServerMethod<global::TopServer.OpenBagRequest, global::TopServer.OpenBagResponse>(serviceImpl.OpenBag));
     }
 
   }

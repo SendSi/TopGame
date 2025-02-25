@@ -9,7 +9,7 @@ using pb = global::Google.Protobuf;
 using pbc = global::Google.Protobuf.Collections;
 using pbr = global::Google.Protobuf.Reflection;
 using scg = global::System.Collections.Generic;
-namespace HYFServer {
+namespace TopServer {
 
   /// <summary>Holder for reflection information generated from bag.proto</summary>
   public static partial class BagReflection {
@@ -43,22 +43,22 @@ namespace HYFServer {
             "Z09uZUluZm9SZXNwb25zZRJDCgxCYWdVc2luZ0l0ZW0SGC5iYWcuQmFnVXNp",
             "bmdJdGVtUmVxdWVzdBoZLmJhZy5CYWdVc2luZ0l0ZW1SZXNwb25zZRI0CgdP",
             "cGVuQmFnEhMuYmFnLk9wZW5CYWdSZXF1ZXN0GhQuYmFnLk9wZW5CYWdSZXNw",
-            "b25zZUIMqgIJSFlGU2VydmVyYgZwcm90bzM="));
+            "b25zZUIMqgIJVG9wU2VydmVyYgZwcm90bzM="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, null, new pbr::GeneratedClrTypeInfo[] {
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.BagRequest), global::HYFServer.BagRequest.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.BagResponse), global::HYFServer.BagResponse.Parser, new[]{ "ItemInfos", "TestValue" }, new[]{ "BagMsg" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.BagAllInfoRequest), global::HYFServer.BagAllInfoRequest.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.BagAllInfoResponse), global::HYFServer.BagAllInfoResponse.Parser, new[]{ "AllItemInfo" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.BagOneInfoRequest), global::HYFServer.BagOneInfoRequest.Parser, new[]{ "CfgId" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.BagOneInfoResponse), global::HYFServer.BagOneInfoResponse.Parser, new[]{ "ItemDto" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.BagUsingItemRequest), global::HYFServer.BagUsingItemRequest.Parser, new[]{ "CfgId", "Num" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.BagUsingItemResponse), global::HYFServer.BagUsingItemResponse.Parser, new[]{ "CfgId", "Sum" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.OpenBagRequest), global::HYFServer.OpenBagRequest.Parser, null, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.OpenBagResponse), global::HYFServer.OpenBagResponse.Parser, new[]{ "Items" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.ItemDto), global::HYFServer.ItemDto.Parser, new[]{ "CfgId", "Sum", "Uid" }, null, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::HYFServer.ItemDtos), global::HYFServer.ItemDtos.Parser, new[]{ "ItemInfos" }, null, null, null, null)
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.BagRequest), global::TopServer.BagRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.BagResponse), global::TopServer.BagResponse.Parser, new[]{ "ItemInfos", "TestValue" }, new[]{ "BagMsg" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.BagAllInfoRequest), global::TopServer.BagAllInfoRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.BagAllInfoResponse), global::TopServer.BagAllInfoResponse.Parser, new[]{ "AllItemInfo" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.BagOneInfoRequest), global::TopServer.BagOneInfoRequest.Parser, new[]{ "CfgId" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.BagOneInfoResponse), global::TopServer.BagOneInfoResponse.Parser, new[]{ "ItemDto" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.BagUsingItemRequest), global::TopServer.BagUsingItemRequest.Parser, new[]{ "CfgId", "Num" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.BagUsingItemResponse), global::TopServer.BagUsingItemResponse.Parser, new[]{ "CfgId", "Sum" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.OpenBagRequest), global::TopServer.OpenBagRequest.Parser, null, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.OpenBagResponse), global::TopServer.OpenBagResponse.Parser, new[]{ "Items" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.ItemDto), global::TopServer.ItemDto.Parser, new[]{ "CfgId", "Sum", "Uid" }, null, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::TopServer.ItemDtos), global::TopServer.ItemDtos.Parser, new[]{ "ItemInfos" }, null, null, null, null)
           }));
     }
     #endregion
@@ -82,7 +82,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[0]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[0]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -237,7 +237,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[1]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[1]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -279,8 +279,8 @@ namespace HYFServer {
     public const int ItemInfosFieldNumber = 4;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HYFServer.ItemDtos ItemInfos {
-      get { return bagMsgCase_ == BagMsgOneofCase.ItemInfos ? (global::HYFServer.ItemDtos) bagMsg_ : null; }
+    public global::TopServer.ItemDtos ItemInfos {
+      get { return bagMsgCase_ == BagMsgOneofCase.ItemInfos ? (global::TopServer.ItemDtos) bagMsg_ : null; }
       set {
         bagMsg_ = value;
         bagMsgCase_ = value == null ? BagMsgOneofCase.None : BagMsgOneofCase.ItemInfos;
@@ -437,7 +437,7 @@ namespace HYFServer {
       switch (other.BagMsgCase) {
         case BagMsgOneofCase.ItemInfos:
           if (ItemInfos == null) {
-            ItemInfos = new global::HYFServer.ItemDtos();
+            ItemInfos = new global::TopServer.ItemDtos();
           }
           ItemInfos.MergeFrom(other.ItemInfos);
           break;
@@ -462,7 +462,7 @@ namespace HYFServer {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, input);
             break;
           case 34: {
-            global::HYFServer.ItemDtos subBuilder = new global::HYFServer.ItemDtos();
+            global::TopServer.ItemDtos subBuilder = new global::TopServer.ItemDtos();
             if (bagMsgCase_ == BagMsgOneofCase.ItemInfos) {
               subBuilder.MergeFrom(ItemInfos);
             }
@@ -490,7 +490,7 @@ namespace HYFServer {
             _unknownFields = pb::UnknownFieldSet.MergeFieldFrom(_unknownFields, ref input);
             break;
           case 34: {
-            global::HYFServer.ItemDtos subBuilder = new global::HYFServer.ItemDtos();
+            global::TopServer.ItemDtos subBuilder = new global::TopServer.ItemDtos();
             if (bagMsgCase_ == BagMsgOneofCase.ItemInfos) {
               subBuilder.MergeFrom(ItemInfos);
             }
@@ -526,7 +526,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[2]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[2]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -681,7 +681,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[3]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[3]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -713,12 +713,12 @@ namespace HYFServer {
 
     /// <summary>Field number for the "allItemInfo" field.</summary>
     public const int AllItemInfoFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::HYFServer.ItemDto> _repeated_allItemInfo_codec
-        = pb::FieldCodec.ForMessage(10, global::HYFServer.ItemDto.Parser);
-    private readonly pbc::RepeatedField<global::HYFServer.ItemDto> allItemInfo_ = new pbc::RepeatedField<global::HYFServer.ItemDto>();
+    private static readonly pb::FieldCodec<global::TopServer.ItemDto> _repeated_allItemInfo_codec
+        = pb::FieldCodec.ForMessage(10, global::TopServer.ItemDto.Parser);
+    private readonly pbc::RepeatedField<global::TopServer.ItemDto> allItemInfo_ = new pbc::RepeatedField<global::TopServer.ItemDto>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::HYFServer.ItemDto> AllItemInfo {
+    public pbc::RepeatedField<global::TopServer.ItemDto> AllItemInfo {
       get { return allItemInfo_; }
     }
 
@@ -862,7 +862,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[4]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[4]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1054,7 +1054,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[5]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[5]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1086,10 +1086,10 @@ namespace HYFServer {
 
     /// <summary>Field number for the "itemDto" field.</summary>
     public const int ItemDtoFieldNumber = 5;
-    private global::HYFServer.ItemDto itemDto_;
+    private global::TopServer.ItemDto itemDto_;
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public global::HYFServer.ItemDto ItemDto {
+    public global::TopServer.ItemDto ItemDto {
       get { return itemDto_; }
       set {
         itemDto_ = value;
@@ -1183,7 +1183,7 @@ namespace HYFServer {
       }
       if (other.itemDto_ != null) {
         if (itemDto_ == null) {
-          ItemDto = new global::HYFServer.ItemDto();
+          ItemDto = new global::TopServer.ItemDto();
         }
         ItemDto.MergeFrom(other.ItemDto);
       }
@@ -1204,7 +1204,7 @@ namespace HYFServer {
             break;
           case 42: {
             if (itemDto_ == null) {
-              ItemDto = new global::HYFServer.ItemDto();
+              ItemDto = new global::TopServer.ItemDto();
             }
             input.ReadMessage(ItemDto);
             break;
@@ -1226,7 +1226,7 @@ namespace HYFServer {
             break;
           case 42: {
             if (itemDto_ == null) {
-              ItemDto = new global::HYFServer.ItemDto();
+              ItemDto = new global::TopServer.ItemDto();
             }
             input.ReadMessage(ItemDto);
             break;
@@ -1255,7 +1255,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[6]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[6]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1484,7 +1484,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[7]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[7]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1710,7 +1710,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[8]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[8]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1865,7 +1865,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[9]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[9]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -1897,12 +1897,12 @@ namespace HYFServer {
 
     /// <summary>Field number for the "items" field.</summary>
     public const int ItemsFieldNumber = 1;
-    private static readonly pb::FieldCodec<global::HYFServer.ItemDto> _repeated_items_codec
-        = pb::FieldCodec.ForMessage(10, global::HYFServer.ItemDto.Parser);
-    private readonly pbc::RepeatedField<global::HYFServer.ItemDto> items_ = new pbc::RepeatedField<global::HYFServer.ItemDto>();
+    private static readonly pb::FieldCodec<global::TopServer.ItemDto> _repeated_items_codec
+        = pb::FieldCodec.ForMessage(10, global::TopServer.ItemDto.Parser);
+    private readonly pbc::RepeatedField<global::TopServer.ItemDto> items_ = new pbc::RepeatedField<global::TopServer.ItemDto>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::HYFServer.ItemDto> Items {
+    public pbc::RepeatedField<global::TopServer.ItemDto> Items {
       get { return items_; }
     }
 
@@ -2046,7 +2046,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[10]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[10]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2312,7 +2312,7 @@ namespace HYFServer {
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
     public static pbr::MessageDescriptor Descriptor {
-      get { return global::HYFServer.BagReflection.Descriptor.MessageTypes[11]; }
+      get { return global::TopServer.BagReflection.Descriptor.MessageTypes[11]; }
     }
 
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
@@ -2344,12 +2344,12 @@ namespace HYFServer {
 
     /// <summary>Field number for the "itemInfos" field.</summary>
     public const int ItemInfosFieldNumber = 2;
-    private static readonly pb::FieldCodec<global::HYFServer.ItemDto> _repeated_itemInfos_codec
-        = pb::FieldCodec.ForMessage(18, global::HYFServer.ItemDto.Parser);
-    private readonly pbc::RepeatedField<global::HYFServer.ItemDto> itemInfos_ = new pbc::RepeatedField<global::HYFServer.ItemDto>();
+    private static readonly pb::FieldCodec<global::TopServer.ItemDto> _repeated_itemInfos_codec
+        = pb::FieldCodec.ForMessage(18, global::TopServer.ItemDto.Parser);
+    private readonly pbc::RepeatedField<global::TopServer.ItemDto> itemInfos_ = new pbc::RepeatedField<global::TopServer.ItemDto>();
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     [global::System.CodeDom.Compiler.GeneratedCode("protoc", null)]
-    public pbc::RepeatedField<global::HYFServer.ItemDto> ItemInfos {
+    public pbc::RepeatedField<global::TopServer.ItemDto> ItemInfos {
       get { return itemInfos_; }
     }
 

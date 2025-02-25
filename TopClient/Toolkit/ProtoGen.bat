@@ -13,7 +13,7 @@ if not "%~2"=="" (
 )
 
 cd /d "%directory%"
-set input=..\..\HYFServer\HYFServer\Protos
+set input=..\..\TopServer\TopServer\Protos
 set output=.\CSFiles
 set grpc_root=.\grpc.tools\windows_x64
 

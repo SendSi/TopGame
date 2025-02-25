@@ -25,6 +25,7 @@ namespace CommonPKG
             UIObjectFactory.SetPackageItemExtension(generalFragment.URL, typeof(generalFragment));
             UIObjectFactory.SetPackageItemExtension(InfoTipView.URL, typeof(InfoTipView));
             UIObjectFactory.SetPackageItemExtension(titleContent.URL, typeof(titleContent));
+            UIObjectFactory.SetPackageItemExtension(GlobalModalWaiting.URL, typeof(GlobalModalWaiting));
             UIObjectFactory.SetPackageItemExtension(com_btn_tab04.URL, typeof(com_btn_tab04));
             UIObjectFactory.SetPackageItemExtension(RedPoint.URL, typeof(RedPoint));
             UIObjectFactory.SetPackageItemExtension(com_btn_null.URL, typeof(com_btn_null));
