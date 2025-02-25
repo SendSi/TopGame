@@ -11,7 +11,6 @@
     <component id="d9gi23" name="com_btn_close3.xml" path="/components/" exported="true" favorite="true"/>
     <component id="itz029" name="com_mask.xml" path="/components/" exported="true" favorite="true"/>
     <image id="itz02a" name="com_bg_mask.png" path="/images/" exported="true" scale="9grid" scale9grid="4,4,8,8"/>
-    <image id="aibb2e" name="common_arrow_4.png" path="/images/" exported="true"/>
     <component id="grwsdo" name="com_ProgressBar4.xml" path="/components/" exported="true"/>
     <image id="dix6fj" name="com_red_dot.png" path="/images/" exported="true" scale9grid="11,10,1,1"/>
     <component id="dix6fm" name="red_dot.xml" path="/components/" exported="true" favorite="true"/>
@@ -90,7 +89,6 @@
     <component id="k7pz1v" name="Button_cut.xml" path="/components/" exported="true"/>
     <component id="ykwwkx" name="CurrencyListCom.xml" path="/components/" exported="true" favorite="true"/>
     <component id="ujpqchc" name="LoadingView.xml" path="/panel/" exported="true"/>
-    <component id="arx1z9cjj" name="com_btn_closeBlank.xml" path="/components/" exported="true" favorite="true"/>
     <font id="q24lz9cjq" name="fight_font.fnt" path="/images/font/" exported="true"/>
     <image id="q24lz9ck2" name="fight_0.png" path="/images/font/" exported="true"/>
     <image id="q24lz9ck3" name="fight_1.png" path="/images/font/" exported="true"/>
@@ -107,7 +105,6 @@
     <font id="kn9hz9cle" name="quality_font.fnt" path="/images/font/" exported="true"/>
     <component id="cz1oz9clw" name="btn_head3.xml" path="/components/" exported="true"/>
     <component id="cz1oz9clx" name="cutParticle.xml" path="/components/" exported="true"/>
-    <image id="cxixz9cmd" name="stars02.png" path="/images/" exported="true" favorite="true"/>
     <image id="c4umz9cna" name="com_btn_bg01.png" path="/images/" exported="true" scale="9grid" scale9grid="6,6,142,47"/>
     <component id="c4umz9cnc" name="com_btn_001.xml" path="/components/" exported="true" favorite="true"/>
     <image id="eaahz9co9" name="com_btn_bg00.png" path="/images/" exported="true" favorite="true" scale="9grid" scale9grid="6,6,142,47"/>
@@ -127,7 +124,6 @@
     <image id="b2gghz9d6g" name="com_btn_bg02.png" path="/images/" exported="true" scale="9grid" scale9grid="6,6,142,47"/>
     <component id="pyiyhz9d6l" name="RedPoint.xml" path="/components/" exported="true" favorite="true"/>
     <image id="lfqnhz9d6y" name="com_bg_popup04(1).png" path="/images/" exported="true" scale="9grid" scale9grid="211,156,7,52"/>
-    <image id="lfqnhz9d75" name="stars03.png" path="/images/" exported="true"/>
     <image id="bumchz9d7p" name="negative_bg03.png" path="/images/" exported="true" scale="9grid" scale9grid="19,18,16,13"/>
     <image id="bumchz9d7r" name="negative_bg05.png" path="/images/" exported="true" scale="9grid" scale9grid="9,0,18,4"/>
     <image id="bumchz9d7u" name="negative_strip00.png" path="/images/" exported="true"/>
@@ -186,18 +182,6 @@
     <component id="ld4m1ygcfhr" name="com_btnAdd2.xml" path="/components/" exported="true"/>
     <image id="il9y1ygcfjg" name="activity_003.png" path="/images/" exported="true"/>
     <image id="il9y1ygcfjk" name="activity_007.png" path="/images/" exported="true"/>
-    <image id="so711ygcfjt" name="arms_bg01.png" path="/images/" exported="true"/>
-    <image id="so711ygcfju" name="arms_bg02.png" path="/images/" exported="true"/>
-    <image id="so711ygcfjv" name="arms_bg03.png" path="/images/" exported="true"/>
-    <image id="so711ygcfjw" name="arms_bg04.png" path="/images/" exported="true"/>
-    <image id="so711ygcfjx" name="arms_bg05.png" path="/images/" exported="true"/>
-    <image id="so711ygcfjy" name="arms_bg06.png" path="/images/" exported="true"/>
-    <image id="so711ygcfjz" name="arms_icon01.png" path="/images/" exported="true"/>
-    <image id="so711ygcfk0" name="arms_icon02.png" path="/images/" exported="true"/>
-    <image id="so711ygcfk1" name="arms_icon03.png" path="/images/" exported="true"/>
-    <image id="so711ygcfk2" name="arms_icon04.png" path="/images/" exported="true"/>
-    <image id="so711ygcfk3" name="arms_icon05.png" path="/images/" exported="true"/>
-    <image id="so711ygcfk4" name="arms_icon06.png" path="/images/" exported="true"/>
     <image id="poazl4" name="bag_bg01.png" path="/images/" exported="true" scale="9grid" scale9grid="6,0,2,740"/>
     <image id="91o91ygcfke" name="0.png" path="/images/" exported="true"/>
     <image id="91o91ygcfkf" name="1.png" path="/images/" exported="true"/>
@@ -209,7 +193,6 @@
     <image id="91o91ygcfkl" name="7.png" path="/images/" exported="true"/>
     <image id="91o91ygcfkm" name="8.png" path="/images/" exported="true"/>
     <image id="91o91ygcfkn" name="9.png" path="/images/" exported="true"/>
-    <image id="91o91ygcfkr" name="cityupgrade_marker.png" path="/images/" exported="true"/>
     <font id="faxr1ygcfkv" name="gold_font.fnt" path="/images/font/" exported="true"/>
     <image id="wp7i1ygcfkz" name="label_04.png" path="/images/" exported="true"/>
     <image id="svpo1ygcfl2" name="n0.png" path="/images/font/" exported="true"/>
@@ -222,7 +205,6 @@
     <image id="svpo1ygcfl9" name="n7.png" path="/images/font/" exported="true"/>
     <image id="svpo1ygcfla" name="n8.png" path="/images/font/" exported="true"/>
     <image id="svpo1ygcflb" name="n9.png" path="/images/font/" exported="true"/>
-    <image id="svpo1ygcfld" name="numberbg02.png" path="/images/font/" exported="true"/>
     <font id="svpo1ygcfle" name="Break.fnt" path="/images/font/" exported="true"/>
     <font id="ns8m1ygcflf" name="citiupgradeFont.fnt" path="/images/font/" exported="true"/>
     <image id="mcwm1ygcfli" name="activity_016.png" path="/images/" exported="true"/>
@@ -237,8 +219,6 @@
     <image id="n4491ygcfm1" name="activity_num8.png" path="/images/font/" exported="true"/>
     <image id="n4491ygcfm2" name="activity_num9.png" path="/images/font/" exported="true"/>
     <font id="n4491ygcflr" name="season_num.fnt" path="/images/font/" exported="true"/>
-    <image id="khh61ygcfm8" name="arms_bg07.png" path="/images/" exported="true"/>
-    <image id="gw9a1ygcfmn" name="com_bg_tips05(1).png" path="/images/" exported="true" scale="9grid" scale9grid="91,34,18,35"/>
     <image id="s4xx1ygcgkw" name="com_strip012.png" path="/images/" exported="true" scale="9grid" scale9grid="48,5,4,15"/>
     <image id="s4xx1ygcgkx" name="com_strip013.png" path="/images/" exported="true" scale="9grid" scale9grid="12,6,2,4"/>
     <sound id="u9ouh1" name="com_01.mp3" path="/sound/" exported="true"/>
@@ -257,7 +237,6 @@
     <sound id="qok1hz9cy6" name="ui_quest_new.mp3" path="/sound/" exported="true"/>
     <sound id="qok1hz9cy9" name="ui_smithing_improveweapon_01.mp3" path="/sound/" exported="true"/>
     <image id="c7781ygcgmm" name="welfare_btn_bg22.png" path="/images/" exported="true"/>
-    <image id="za6y1ygcgmn" name="welfare_btn_bg23.png" path="/images/" exported="true" scale="9grid" scale9grid="53,9,15,18"/>
     <font id="vsu61ygcgni" name="crit_Font.fnt" path="/images/font/" exported="true"/>
     <image id="vsu61ygcfom" name="crit_num0.png" path="/images/font/" exported="true"/>
     <image id="vsu61ygcfol" name="crit_num1.png" path="/images/font/" exported="true"/>
@@ -269,34 +248,21 @@
     <image id="vsu61ygcfof" name="crit_num7.png" path="/images/font/" exported="true"/>
     <image id="vsu61ygcfoe" name="crit_num8.png" path="/images/font/" exported="true"/>
     <image id="vsu61ygcfod" name="crit_num9.png" path="/images/font/" exported="true"/>
-    <component id="r52r1ygcgpe" name="comItem_BottomName.xml" path="/components/" exported="true"/>
     <component id="lxji1ygcgph" name="generalFragment01.xml" path="/components/" exported="true"/>
     <image id="lxji1ygcgpi" name="Keepsake_icon.png" path="/images/" exported="true"/>
-    <component id="w5x51ygcgq6" name="SeasonItemView.xml" path="/components/" exported="true" favorite="true"/>
     <image id="fk801ygcgqs" name="bg4.jpg" path="/images/" exported="true" atlas="alone_npot"/>
-    <image id="oepthz9cp2" name="main_bar01.png" path="/images/" exported="true" scale="9grid" scale9grid="20,0,6,5"/>
-    <image id="oepthz9cp3" name="main_bar02.png" path="/images/" exported="true" scale="9grid" scale9grid="13,0,16,4"/>
-    <image id="oepthz9cp4" name="main_bar03.png" path="/images/" exported="true" scale="9grid" scale9grid="11,0,22,4"/>
-    <image id="oepthz9cp1" name="main_bar04.png" path="/images/" exported="true" scale="9grid" scale9grid="11,0,22,4"/>
     <image id="w6lt1ygcg9o" name="bg_chat_09.png" path="/images/" exported="true" scale="9grid" scale9grid="220,12,53,14"/>
-    <image id="ig901ygcg9n" name="btn_bg.png" path="/images/" exported="true" scale="9grid" scale9grid="9,10,111,26"/>
-    <component id="ig9038" name="comBtn_Icon.xml" path="/images/" exported="true"/>
-    <component id="ig90hz9czq" name="comBtn_IconTxt.xml" path="/images/" exported="true"/>
-    <component id="nqbv1ygcg9y" name="comBtn_tab.xml" path="/images/" exported="true"/>
-    <component id="g17g1ygcfn7" name="plot_btn2.xml" path="/images/" exported="true"/>
     <component id="tixj1ygcg9p" name="ToastTipView.xml" path="/panel/" exported="true"/>
     <component id="tixj1ygcg9o" name="ToastItem.xml" path="/components/" exported="true"/>
     <component id="wru61ygcgrs" name="Button_icon.xml" path="/components/" exported="true"/>
     <image id="j3xs9pd" name="role_icon03.png" path="/images/" exported="true"/>
-    <image id="gr021ygcfgx" name="main_bg04_1.png" path="/images/" exported="true" scale="9grid" scale9grid="9,9,3,3"/>
-    <image id="o7xi1ygcgrt" name="main_bg04.png" path="/images/" exported="true" favorite="true" scale="9grid" scale9grid="8,8,5,4"/>
     <component id="g30w7" name="settingSbr_grip.xml" path="/components/" exported="true"/>
     <component id="lg2o1ygcgrv" name="horseTitle.xml" path="/components/" exported="true"/>
     <component id="lmzq1ygcgrw" name="Item_BaseProp.xml" path="/components/" exported="true" favorite="true"/>
-    <component id="fipp1ygcgrx" name="Item_Popup1.xml" path="/panel/" exported="true"/>
     <component id="t54x1ygcgry" name="VideoView.xml" path="/panel/" exported="true"/>
     <component id="mnqw1ygcga7" name="InfoTipView.xml" path="/panel/" exported="true"/>
     <component id="mnqw1ygcga8" name="titleContent.xml" path="/panel/" exported="true"/>
+    <component id="abva1ygcgrz" name="Item_Popup1.xml" path="/panel/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>

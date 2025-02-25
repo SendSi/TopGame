@@ -3,6 +3,12 @@
   "libview.iconScale": 0,
   "doc.openedDocs": [
     "ui://byy9k3ghg8uq1ygcga8",
+    "ui://byy9k3ghqg411ygcg9q",
+    "ui://2r331opvaol71qp8ver",
+    "ui://2r331opvlmzq1ygcgrw",
+    "ui://2r331opvd37l1ygcfhi",
+    "ui://2r331opvpyiyhz9d6l",
+    "ui://2r331opvtixj1ygcg9o",
     "ui://21uyefv8h7e50"
   ],
   "libview.syncEditor": 0,
@@ -26,6 +32,8 @@
     "/",
     "21uyefv8",
     "/",
+    "21uyefv8",
+    "/components/",
     "lq16fm3b",
     "/",
     "tsbe09dd",

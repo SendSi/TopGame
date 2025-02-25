@@ -12,7 +12,7 @@ namespace CommonPKG
         public GTextField _itemDescTxt;
         public Item_BaseProp _comItem;
         public GGroup _content;
-        public const string URL = "ui://2r331opvfipp1ygcgrx";
+        public const string URL = "ui://2r331opvabva1ygcgrz";
 
         public static Item_Popup1 CreateInstance()
         {

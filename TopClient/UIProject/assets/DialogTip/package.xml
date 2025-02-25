@@ -4,7 +4,6 @@
     <component id="m79t2l" name="DialogTip1View.xml" path="/panel/" exported="true"/>
     <component id="m79t16" name="DialogTip2View.xml" path="/panel/" exported="true"/>
     <component id="tbod38" name="contentTxt.xml" path="/components/" exported="true"/>
-    <component id="eznb1iy5bbi" name="DialogTip3View.xml" path="/panel/" exported="true"/>
     <font id="ml181ygcfmy" name="gold_font.fnt" path="/img_font/" exported="true"/>
     <image id="ml181ygcfmz" name="0.png" path="/img_font/" exported="true"/>
     <image id="ml181ygcfn0" name="1.png" path="/img_font/" exported="true"/>
@@ -16,7 +15,6 @@
     <image id="ml181ygcfn6" name="7.png" path="/img_font/" exported="true"/>
     <image id="ml181ygcfn7" name="8.png" path="/img_font/" exported="true"/>
     <image id="ml181ygcfn8" name="9.png" path="/img_font/" exported="true"/>
-    <component id="ff111ygcft3" name="contentTxt3.xml" path="/components/" exported="true"/>
   </resources>
   <publish name="" genCode="true"/>
 </packageDescription>
